@@ -1,0 +1,404 @@
+{
+  "mountains": [
+    {
+      "name": "Kuwohi",
+      "lat": 35.5628,
+      "lng": -83.4985,
+      "inspirational_story": "The restoration of its Cherokee name transforms this towering peak from a tourist stop into a living monument of peace and enduring Indigenous heritage.",
+      "fun_fact": "It stands proudly as the highest point along the entire 2,192-mile Appalachian Trail.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Kuwohi"
+    },
+    {
+      "name": "Mount Blue Sky",
+      "lat": 39.5883,
+      "lng": -105.6438,
+      "inspirational_story": "Its high-altitude alpine gardens host bristlecone pines that have thrived on adversity for 1,700 years, silently enduring extreme winds.",
+      "fun_fact": "It boasts the highest continuous paved road in North America, terminating near 14,264 feet.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Blue+Sky"
+    },
+    {
+      "name": "Pikes Peak",
+      "lat": 38.8405,
+      "lng": -105.0442,
+      "inspirational_story": "Peter Strudwick, born without feet and with missing hands, completed the grueling ascent and marathon in 1972, proving the limitless power of human will.",
+      "fun_fact": "The spectacular view from its summit inspired Katherine Lee Bates to write the lyrics to 'America the Beautiful'.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Pikes+Peak"
+    },
+    {
+      "name": "Haleakala",
+      "lat": 20.7097,
+      "lng": -156.2533,
+      "inspirational_story": "Watching the sunrise above a 'waterfall of fog' offers visitors a primordial, comforting solitude that feels like witnessing the birth of a star.",
+      "fun_fact": "Despite being so close to the equator, temperatures at the summit can rapidly plummet to near-freezing.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Haleakala"
+    },
+    {
+      "name": "Mauna Kea",
+      "lat": 19.8207,
+      "lng": -155.4681,
+      "inspirational_story": "Rising dramatically from the deep ocean floor, it offers a serene, cloud-piercing vantage point where humanity peers into the deepest reaches of the cosmos.",
+      "fun_fact": "When measured from its base on the ocean floor to its summit, it is significantly taller than Mount Everest.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mauna+Kea"
+    },
+    {
+      "name": "Mount Washington",
+      "lat": 44.2705,
+      "lng": -71.3032,
+      "inspirational_story": "Volunteers like Sandy and Joan Kurtz have dedicated nearly 50 years to supporting the mountain's observatory, fostering a deep community of perseverance.",
+      "fun_fact": "Early Native Americans called it 'Agiocochook' and considered it the sacred home of the gods.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Washington"
+    },
+    {
+      "name": "Mount Mitchell",
+      "lat": 35.7649,
+      "lng": -82.2651,
+      "inspirational_story": "Elisha Mitchell dedicated his life to surveying its heights and ultimately lost his life on its slopes, but his devotion led to the creation of North Carolina's first state park.",
+      "fun_fact": "It stands as the highest peak in North America east of the Mississippi River.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Mitchell"
+    },
+    {
+      "name": "Cadillac Mountain",
+      "lat": 44.3526,
+      "lng": -68.2246,
+      "inspirational_story": "The Wabanaki, 'People of the Dawn Land,' have revered this place for generations, finding coastal serenity in the breaking of the first light.",
+      "fun_fact": "During the winter, it is the first place in the United States to witness the sunrise.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Cadillac+Mountain"
+    },
+    {
+      "name": "Sassafras Mountain",
+      "lat": 35.0648,
+      "lng": -82.7774,
+      "inspirational_story": "The mountain's summit, formed by deep geological time and continental collisions, now offers a peaceful, wheelchair-accessible sanctuary to enjoy the majesty of nature.",
+      "fun_fact": "It serves as the separation point for three distinct watersheds, sending water to both the Atlantic and the Gulf.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Sassafras+Mountain"
+    },
+    {
+      "name": "Brasstown Bald",
+      "lat": 34.8743,
+      "lng": -83.8046,
+      "inspirational_story": "Rising above the surrounding valleys, its name comes from the Cherokee 'Itse'yi,' meaning 'a place of fresh green,' symbolizing renewal and life.",
+      "fun_fact": "The observation deck provides a clear view of four different states simultaneously.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Brasstown+Bald"
+    },
+    {
+      "name": "Cheaha Mountain",
+      "lat": 33.4855,
+      "lng": -85.8087,
+      "inspirational_story": "Amidst the struggles of the Great Depression, the Civilian Conservation Corps worked tirelessly to replant its forests and build peaceful trails for future generations.",
+      "fun_fact": "It is one of only five state high points that still retains its original Indigenous name, derived from the Creek word for 'high place'.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Cheaha+Mountain"
+    },
+    {
+      "name": "Mount Magazine",
+      "lat": 35.1670,
+      "lng": -93.6447,
+      "inspirational_story": "Its isolated, flat-topped plateau became a safe haven and refuge for those seeking solace and cool breezes above the harsh valley temperatures.",
+      "fun_fact": "It is home to ninety-four different species of butterflies, including the rare Diana fritillary.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Magazine"
+    },
+    {
+      "name": "Mount Sunflower",
+      "lat": 39.0219,
+      "lng": -102.0372,
+      "inspirational_story": "Set in an endless prairie panorama, this gentle rise offers a quiet, meditative space where the wind blows across a landscape of absolute calm.",
+      "fun_fact": "The summit features a whimsical sunflower sculpture made entirely of welded railroad spikes.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Sunflower"
+    },
+    {
+      "name": "High Point",
+      "lat": 41.3208,
+      "lng": -74.6617,
+      "inspirational_story": "Donated out of immense generosity by the Kuser family, this pristine landscape was dedicated to provide a place of rest, recreation, and eternal remembrance.",
+      "fun_fact": "The park's beautiful landscape was designed by the Olmsted Brothers, sons of the famous Central Park designer.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=High+Point"
+    },
+    {
+      "name": "Mount Greylock",
+      "lat": 42.6373,
+      "lng": -73.1662,
+      "inspirational_story": "After 19th-century clearcutting stripped the peak, persistent conservation efforts allowed the forest to regenerate, wrapping the mountain in vibrant new life.",
+      "fun_fact": "The eerie history and mist of the mountain inspired J.K. Rowling to use it as the setting for the Ilvermorny School of Witchcraft and Wizardry.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Greylock"
+    },
+    {
+      "name": "Mount Mansfield",
+      "lat": 44.5437,
+      "lng": -72.8143,
+      "inspirational_story": "Viewed from the east, the mountain forms the peaceful profile of a sleeping giant resting eternally under the New England sky.",
+      "fun_fact": "The Toll Road has been hosting visitors since 1923, offering a scenic zigzag ascent through vibrant seasonal foliage.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Mansfield"
+    },
+    {
+      "name": "Mount Equinox",
+      "lat": 43.1592,
+      "lng": -73.1360,
+      "inspirational_story": "It is a haven of quiet contemplation, hosting the only Carthusian monastery in North America where monks live in profound silence.",
+      "fun_fact": "The mountain features a cascading 'geyser-like' natural spring that gushes out of its side.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Equinox"
+    },
+    {
+      "name": "Whiteface Mountain",
+      "lat": 44.3659,
+      "lng": -73.9026,
+      "inspirational_story": "Climbers find deep solace in its soaring heights, using the physical challenge to heal emotional wounds and honor the memory of loved ones.",
+      "fun_fact": "The Veterans Memorial Highway allows visitors to drive nearly to the summit, providing accessible sweeping views of the Adirondacks.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Whiteface+Mountain"
+    },
+    {
+      "name": "Mount Constitution",
+      "lat": 48.6776,
+      "lng": -122.8312,
+      "inspirational_story": "Built by the Civilian Conservation Corps during the 1930s, the stone observation tower stands as a lasting monument to community labor and shared environmental appreciation.",
+      "fun_fact": "The observation tower at the summit is fashioned after medieval watchtowers from the Caucasus Mountains.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Constitution"
+    },
+    {
+      "name": "Signal Mountain",
+      "lat": 43.8489,
+      "lng": -110.5672,
+      "inspirational_story": "Standing apart from the towering Tetons, this isolated peak offers a tranquil space to appreciate the gentle winding of the Snake River far below.",
+      "fun_fact": "It was formed not by the same tectonic forces as the Tetons, but by volcanic ashfall from an ancient Yellowstone eruption.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Signal+Mountain"
+    },
+    {
+      "name": "Rendezvous Mountain",
+      "lat": 43.5972,
+      "lng": -110.8706,
+      "inspirational_story": "For decades, the iconic aerial tram has gently lifted sightseers above the rugged slopes, democratizing the majesty of the high alpine ecosystem.",
+      "fun_fact": "In the winter, riders can spot native wildlife like foxes and ptarmigans from the comfort of the aerial tramway.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Rendezvous+Mountain"
+    },
+    {
+      "name": "Lone Mountain",
+      "lat": 45.2781,
+      "lng": -111.4503,
+      "inspirational_story": "The Lone Peak Tram revolutionized mountain access, merging bold engineering with a profound respect for the extreme verticality of the northern Rockies.",
+      "fun_fact": "The peak is actually a laccolith, a geological formation where rising magma bowed the earth upward but never erupted.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Lone+Mountain"
+    },
+    {
+      "name": "Mount Lemmon",
+      "lat": 32.4430,
+      "lng": -110.7885,
+      "inspirational_story": "Sara Plummer Lemmon, an intrepid self-taught botanist, climbed the peak in 1881 on her honeymoon, finding empowerment and joy in the natural world.",
+      "fun_fact": "It is the site of the southernmost ski destination in the continental United States.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Lemmon"
+    },
+    {
+      "name": "Mount Wilson",
+      "lat": 34.2238,
+      "lng": -118.0616,
+      "inspirational_story": "Perched above the bustling city, its incredibly clear air allowed early astronomers to peer deep into the cosmos, expanding our understanding of a vast, peaceful universe.",
+      "fun_fact": "It is home to the historic 100-inch Hooker telescope, which Edwin Hubble used to discover that the universe is expanding.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Wilson"
+    },
+    {
+      "name": "Mount Hamilton",
+      "lat": 37.3417,
+      "lng": -121.6428,
+      "inspirational_story": "Born from the dream of an eccentric philanthropist, the summit became the world's first permanently occupied mountain-top observatory, bringing humanity closer to the stars.",
+      "fun_fact": "The asteroid 452 Hamiltonia, discovered in 1899, is named after this very mountain.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Hamilton"
+    },
+    {
+      "name": "Mount Umunhum",
+      "lat": 37.1605,
+      "lng": -121.8986,
+      "inspirational_story": "Revered by the Ohlone people as 'the resting place of the hummingbird,' the mountain's summit was lovingly restored to honor its sacred heritage and natural beauty.",
+      "fun_fact": "You can often catch a glimpse of the Pacific Ocean and the distant Sierra Nevada from its restored observation points.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Umunhum"
+    },
+    {
+      "name": "Mount Tamalpais",
+      "lat": 37.9291,
+      "lng": -122.5778,
+      "inspirational_story": "The mountain's gently sloping silhouette gave rise to the enduring theatrical legend of the Sleeping Lady, a testament to the landscape's ability to inspire art and myth.",
+      "fun_fact": "For the Lakota Sioux, it was considered the 'Holy Right Eye of the Great Turtle' that formed the North American continent.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Tamalpais"
+    },
+    {
+      "name": "Mount Diablo",
+      "lat": 37.8816,
+      "lng": -121.9142,
+      "inspirational_story": "In Indigenous lore, it was the sacred place where Wek-wek the Prairie Falcon-man helped create the first people and provided them with everything they needed to live.",
+      "fun_fact": "During winter, the Spanish used its lower slopes for grazing cattle long before the Bay Area was urbanized.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Diablo"
+    },
+    {
+      "name": "San Jacinto Peak",
+      "lat": 33.8147,
+      "lng": -116.6794,
+      "inspirational_story": "The mountain's towering presence and accessibility via tramway give everyday visitors the chance to experience profound alpine isolation just minutes from the desert heat.",
+      "fun_fact": "Near the summit lies a stone hut built in 1935 by the Civilian Conservation Corps under the direction of a Serbo-Croatian stonemason.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=San+Jacinto+Peak"
+    },
+    {
+      "name": "Mammoth Mountain",
+      "lat": 37.6307,
+      "lng": -119.0326,
+      "inspirational_story": "The sweeping gondola rides offer thousands of sightseers an effortless glide into the serene heights of the Sierra Nevada, bridging human engineering and natural wonder.",
+      "fun_fact": "The summit houses a radio repeater that provides incredible coverage for amateur radio operators across the region.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mammoth+Mountain"
+    },
+    {
+      "name": "Stone Mountain",
+      "lat": 33.8053,
+      "lng": -84.1455,
+      "inspirational_story": "The Summit Skyride provides an inclusive pathway for people of all abilities to peacefully ascend and appreciate the sweeping geology of this massive monadnock.",
+      "fun_fact": "The mountain is an isolated dome of quartz monzonite that formed deep underground and was exposed by millions of years of erosion.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Stone+Mountain"
+    },
+    {
+      "name": "Cannon Mountain",
+      "lat": 44.1565,
+      "lng": -71.6988,
+      "inspirational_story": "As the site of North America's first passenger aerial tramway, it sparked a new era of mountain recreation that brought the joy of the alpine world to the general public.",
+      "fun_fact": "Its rugged summit observation deck allows visitors to look out over the majestic Franconia Notch.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Cannon+Mountain"
+    },
+    {
+      "name": "Wildcat Mountain",
+      "lat": 44.2642,
+      "lng": -71.2014,
+      "inspirational_story": "Its classic gondola installation in the 1950s opened the skies of Pinkham Notch, granting visitors peaceful, soaring views of the nearby Mount Washington.",
+      "fun_fact": "The original 1958 gondolas were distinctively small, looking like 'a VW bus smooshed in like an accordion'.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Wildcat+Mountain"
+    },
+    {
+      "name": "Jay Peak",
+      "lat": 44.9242,
+      "lng": -72.5256,
+      "inspirational_story": "From a wild mountain where adventurous youth once scrambled, it blossomed into a world-class destination connected by a tram that lifts skiers into the clouds.",
+      "fun_fact": "It boasts Vermont's only aerial tram that drops visitors off at a completely treeless summit.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Jay+Peak"
+    },
+    {
+      "name": "Mount Snow",
+      "lat": 42.9602,
+      "lng": -72.9204,
+      "inspirational_story": "Walt Schoenknecht's eccentric vision transformed a snowy peak into a vibrant playground of innovation, ensuring generations could joyfully experience the winter landscape.",
+      "fun_fact": "In the 1960s, the resort built a 'Fountain Mountain' each winter by shooting a geyser of water into the freezing air.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Snow"
+    },
+    {
+      "name": "Mount Sunapee",
+      "lat": 43.3136,
+      "lng": -72.0742,
+      "inspirational_story": "After World War II delayed initial tramway plans, the community's determination persevered, eventually opening the mountain to decades of peaceful winter recreation.",
+      "fun_fact": "The first ski trail on the mountain was hand-cut by a local ski club using logs from the immediate area for their cabin.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Sunapee"
+    },
+    {
+      "name": "Lookout Mountain",
+      "lat": 34.8636,
+      "lng": -85.3925,
+      "inspirational_story": "Its sweeping vistas have long provided a quiet perspective over the rolling valleys, inspiring generations of travelers and peace-seeking nature lovers.",
+      "fun_fact": "You can supposedly see seven different states from specific vantage points on the mountain on a very clear day.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Lookout+Mountain"
+    },
+    {
+      "name": "Black Mountain",
+      "lat": 36.9142,
+      "lng": -82.8939,
+      "inspirational_story": "Despite being surrounded by heavy industry, the peak remains a forested sanctuary of beautiful hardwoods that resembles the high ridges of the distant Smokies.",
+      "fun_fact": "The summit features an abandoned metal fire lookout tower and is the highest natural point in the Commonwealth of Kentucky.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Black+Mountain"
+    },
+    {
+      "name": "Spruce Knob",
+      "lat": 38.6999,
+      "lng": -79.5331,
+      "inspirational_story": "Once scarred by early 20th-century logging and devastating fires, the mountain has recovered into a protected sanctuary where visitors find serenity in the clouds.",
+      "fun_fact": "The high winds at the summit cause the Red Spruce trees to grow one-sided, a phenomenon known as 'flagging'.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Spruce+Knob"
+    },
+    {
+      "name": "Pilot Mountain",
+      "lat": 36.3396,
+      "lng": -80.4745,
+      "inspirational_story": "Known as 'Jomeokee' or Great Guide, its unmistakable profile provided comforting direction and hope to centuries of weary travelers seeking a new home.",
+      "fun_fact": "Its pinnacle was formed by the compression of sand from an ancient beach that existed over a billion years ago.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Pilot+Mountain"
+    },
+    {
+      "name": "Sandia Crest",
+      "lat": 35.2102,
+      "lng": -106.4486,
+      "inspirational_story": "The graceful ascent of the aerial tramway invites visitors to leave the desert heat behind and embrace the quiet, cool solitude of the high alpine forest.",
+      "fun_fact": "The tramway climbs a staggering 3,819 vertical feet from the base to the crest.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Sandia+Crest"
+    },
+    {
+      "name": "Mount Alyeska",
+      "lat": 60.9694,
+      "lng": -149.0958,
+      "inspirational_story": "The aerial tram glides above the stunning Chugach Mountains, offering a tranquil space to observe the majesty of seven hanging glaciers.",
+      "fun_fact": "The mountain features America's longest contiguous double black diamond ski run, descending 2,000 vertical feet.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Mount+Alyeska"
+    },
+    {
+      "name": "Hidden Peak",
+      "lat": 40.5600,
+      "lng": -111.6450,
+      "inspirational_story": "Surmounting the rugged Little Cottonwood Canyon via the Snowbird Tram provides an exhilarating yet peaceful detachment from the valley floor below.",
+      "fun_fact": "The summit houses a vital amateur radio repeater that forms the basis of the Intermountain Intertie communication network.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Hidden+Peak"
+    },
+    {
+      "name": "Paulina Peak",
+      "lat": 43.6953,
+      "lng": -121.2546,
+      "inspirational_story": "Driving up this ancient volcanic rim rewards travelers with an awe-inspiring panorama of the High Desert, offering quiet reflection on the earth's fiery past.",
+      "fun_fact": "The staggering view from the top stretches from the Cascade snow peaks all the way to the remote Great Basin.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Paulina+Peak"
+    },
+    {
+      "name": "Hoosier Pass",
+      "lat": 39.3616,
+      "lng": -106.0626,
+      "inspirational_story": "Once a treacherous route carved by determined prospectors, the paved pass now serves as a scenic, peaceful gateway connecting modern explorers to the Continental Divide.",
+      "fun_fact": "The pass was named by nostalgically homesick 19th-century miners who originally hailed from Indiana.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Hoosier+Pass"
+    },
+    {
+      "name": "Boreas Pass",
+      "lat": 39.4101,
+      "lng": -105.9691,
+      "inspirational_story": "What was once a perilous, blizzard-prone narrow-gauge railroad line has been transformed into one of the most serene and beautiful scenic drives in the Rockies.",
+      "fun_fact": "The route follows an old historic railroad grade connecting Como to Breckenridge.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Boreas+Pass"
+    },
+    {
+      "name": "Loveland Pass",
+      "lat": 39.6635,
+      "lng": -105.8791,
+      "inspirational_story": "The rugged, winding road demands respect and resilience from drivers, rewarding them with raw, breathtaking vistas above the tree line.",
+      "fun_fact": "Because it bypasses the Eisenhower Tunnel, it is a vital route for freight carriers hauling hazardous materials across the Continental Divide.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Loveland+Pass"
+    },
+    {
+      "name": "Peak 8",
+      "lat": 39.4727,
+      "lng": -106.1025,
+      "inspirational_story": "Accessible via the BreckConnect Gondola, it has grown from a humble 1960s ski hill into a vibrant nexus of alpine joy and community connection.",
+      "fun_fact": "The gondola soars over the protected Cucumber Creek wetlands, which provide a critical habitat for beavers and boreal toads.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Peak+8"
+    },
+    {
+      "name": "Peak 10",
+      "lat": 39.4430,
+      "lng": -106.1028,
+      "inspirational_story": "A rugged summit that effortlessly integrates modern ski infrastructure with wild backcountry access, testing the endurance of high-altitude adventurers.",
+      "fun_fact": "The mountain maintains deep snowfields so late into the summer that locals occasionally hold ski events on the Fourth of July.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Peak+10"
+    },
+    {
+      "name": "Bald Mountain",
+      "lat": 39.4438,
+      "lng": -105.9694,
+      "inspirational_story": "Reached via a bumpy, rocky historic mining road, its summit rewards intrepid drivers with profound silence and near 360-degree views of the Tenmile Range.",
+      "fun_fact": "The lower portion of the trail passes the remains of an old 1900s ore tramway that once carried silver and lead down the mountain.",
+      "database_link": "https://www.peakbagger.com/search.aspx?tid=P&pn=Bald+Mountain"
+    }
+  ]
+}
