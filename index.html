@@ -9,89 +9,88 @@
         body { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f4; overflow-x: hidden; }
         #map { height: 100vh; width: 100vw; z-index: 1; }
         
-        /* Modern UI Tabs */
         #ui-container { position: absolute; top: 20px; left: 50%; transform: translateX(-50%); z-index: 1000; display: flex; align-items: center; gap: 5px; background: white; padding: 5px; border-radius: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
         .tab-btn { padding: 10px 20px; cursor: pointer; border: none; border-radius: 25px; background: transparent; color: #7f8c8d; font-weight: bold; transition: all 0.3s ease; font-size: 14px; }
         .tab-btn.active { background: #27ae60; color: white; box-shadow: 0 2px 8px rgba(39, 174, 96, 0.4); }
         #info-btn { background: #34495e; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; font-weight: bold; cursor: pointer; margin-left: 5px; }
         
-        /* Info Popover */
         #info-popover { display: none; position: absolute; top: 70px; left: 50%; transform: translateX(-50%); z-index: 1000; background: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); width: 280px; text-align: center; border-top: 4px solid #34495e; }
         #info-popover h4 { margin: 0 0 10px 0; color: #2c3e50; }
         #info-popover p { margin: 0; font-size: 13px; color: #555; line-height: 1.5; }
 
-        /* Mountain of the Day Bar */
         #motd-bar { position: absolute; bottom: 0; width: 100%; background: rgba(44, 62, 80, 0.95); color: white; padding: 15px; z-index: 1000; text-align: center; box-sizing: border-box; border-top: 3px solid #27ae60; display: block; transition: transform 0.3s; }
         #motd-bar.hidden { display: none; }
 
-        /* Leaflet Popup Styling */
         .custom-popup { text-align: center; max-width: 250px; }
         .wiki-img { width: 100%; height: 140px; object-fit: cover; border-radius: 6px; margin: 8px 0; background: #eee; }
         .popup-title { color: #2c3e50; margin: 0 0 5px 0; font-size: 16px; }
         .popup-story { font-size: 13px; color: #666; margin-bottom: 10px; line-height: 1.4; }
 
-        /* Fullscreen Modals */
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); z-index: 2000; justify-content: center; align-items: center; }
         .modal-content { background: white; width: 90%; max-width: 500px; max-height: 85vh; border-radius: 15px; padding: 20px; overflow-y: auto; position: relative; box-sizing: border-box; }
         .close-modal { position: absolute; top: 15px; right: 15px; background: #e74c3c; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-weight: bold; }
         
-        /* Mother's Day Greeting */
-        #md-greeting { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%); text-align: center; overflow: hidden; }
+        #md-greeting { background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%); text-align: center; overflow: hidden; }
         .slide { display: none; min-height: 250px; flex-direction: column; justify-content: center; align-items: center; padding: 20px; }
         .slide.active { display: flex; }
-        .slide h2 { color: #d63031; font-size: 28px; margin-bottom: 15px; }
-        .slide p { color: #2d3436; font-size: 18px; line-height: 1.5; }
-        .md-btn { background: #d63031; color: white; border: none; padding: 10px 25px; border-radius: 20px; font-size: 16px; cursor: pointer; margin-top: 20px; }
+        .slide h2 { color: #2980b9; font-size: 28px; margin-bottom: 15px; }
+        .slide p { color: #2c3e50; font-size: 18px; line-height: 1.5; }
+        .md-btn { background: #2980b9; color: white; border: none; padding: 10px 25px; border-radius: 20px; font-size: 16px; cursor: pointer; margin-top: 20px; }
 
-        /* Scrapbook Forms and Views */
         .input-group { margin-bottom: 15px; text-align: left; }
         .input-group label { display: block; font-weight: bold; color: #2c3e50; margin-bottom: 5px; font-size: 14px; }
         .input-group input[type="text"], .input-group textarea { width: 100%; padding: 10px; border: 1px solid #bdc3c7; border-radius: 6px; box-sizing: border-box; font-family: inherit; }
-        .photo-entry { background: #f8f9fa; padding: 10px; border-radius: 8px; margin-bottom: 10px; border: 1px dashed #bdc3c7; }
+        .photo-entry { background: #f8f9fa; padding: 10px; border-radius: 8px; margin-bottom: 10px; border: 1px dashed #bdc3c7; position: relative; }
         .action-btn { background: #2980b9; color: white; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 15px; margin-top: 10px; }
         #add-photo-btn { background: #7f8c8d; margin-bottom: 15px; }
         
-        /* Scrapbook Memory View */
         .memory-header { border-bottom: 2px solid #eee; padding-bottom: 15px; margin-bottom: 15px; text-align: center; }
         .memory-title { color: #2c3e50; font-size: 24px; margin: 0 0 10px 0; }
         .memory-desc { color: #555; font-size: 15px; line-height: 1.6; }
-        .memory-photo-card { background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px; overflow: hidden; }
+        .memory-photo-card { background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px; overflow: hidden; position: relative; }
         .memory-photo-card img { width: 100%; height: auto; display: block; }
         .memory-photo-caption { padding: 12px; font-size: 14px; color: #333; text-align: center; background: #fafafa; border-top: 1px solid #eee; }
+        
+        .action-bar { display: flex; gap: 10px; margin-top: 20px; }
+        .btn-edit { background: #f39c12; flex: 1; }
+        .btn-delete { background: #e74c3c; flex: 1; }
+        .btn-postcard { background: #9b59b6; width: 100%; margin-bottom: 10px; }
+
+        .remove-photo-btn { position: absolute; top: 10px; right: 10px; background: #e74c3c; color: white; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+
+        #postcard-view { background: #fdfbf7; padding: 20px; border: 10px solid #fff; box-shadow: 0 10px 25px rgba(0,0,0,0.2); border-radius: 4px; text-align: center; font-family: 'Georgia', serif; }
+        #postcard-view h1 { color: #2c3e50; font-size: 28px; margin-bottom: 15px; font-style: italic; }
+        #postcard-view img { width: 100%; max-height: 300px; object-fit: cover; border: 4px solid #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        #postcard-view p { color: #444; font-size: 16px; margin-top: 20px; line-height: 1.5; }
+        .postcard-hint { background: #27ae60; color: white; padding: 10px; text-align: center; border-radius: 8px 8px 0 0; font-weight: bold; font-family: sans-serif; }
     </style>
 </head>
 <body>
 
-    <!-- Mother's Day Greeting Modal -->
     <div id="greeting-modal" class="modal-overlay">
         <div class="modal-content" id="md-greeting">
             <button class="close-modal" id="close-greeting">X</button>
             <div class="slide active" id="slide-1">
-                <h2>Happy Mother's Day Mom!</h2>
-                <p>Here's just a little digital surprise for you!</p>
-                <button class="md-btn" onclick="nextSlide(2)">Click to Continue</button>
+                <h2>Welcome Back</h2>
+                <p>The family scrapbook just got a massive upgrade.</p>
+                <button class="md-btn" onclick="nextSlide(2)">See What Is New</button>
             </div>
             <div class="slide" id="slide-2">
-                <p>I wish I could be there to celebrate the mother-iest of days, but I have just a few more days of school work to do.</p>
-                <button class="md-btn" onclick="nextSlide(3)">Next</button>
-            </div>
-            <div class="slide" id="slide-3">
-                <p>But I wanted to put a quick little thing together for you.</p>
-                <p style="font-size: 14px; margin-top: 15px;"><strong>Mountain Search:</strong> Explore famous peaks around the US. The idea is that this can be a way to scout out mountains that we could go to one day.<br><strong>Scrapbook:</strong> Im VERY excited about this. Tap anywhere to save a trip, write a story, and upload your photos! Check out my examples!</p>
-                <button class="md-btn" onclick="nextSlide(4)">Next</button>
-            </div>
-            <div class="slide" id="slide-4">
-                <p>It is still kinda buggy as I havent had the time to fix it all up, but think of this as a work in progress! I love you mom!</p>
+                <h2>New Features</h2>
+                <p style="font-size: 15px; margin-top: 15px; text-align: left;">
+                    <strong>Full Editing:</strong> You can now update your past stories and remove pictures.<br><br>
+                    <strong>Easy Deletion:</strong> Made a mistake. Just delete the pin entirely.<br><br>
+                    <strong>Digital Postcards:</strong> Turn any memory into a beautiful digital postcard to save or share.
+                </p>
                 <button class="md-btn" id="finish-greeting">Enter Map</button>
             </div>
         </div>
     </div>
 
-    <!-- Create Scrapbook Modal -->
     <div id="create-modal" class="modal-overlay">
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('create-modal')">X</button>
-            <h2 style="color: #2c3e50; text-align: center; margin-top: 0;">Create New Memory</h2>
+            <h2 id="modal-form-title" style="color: #2c3e50; text-align: center; margin-top: 0;">Create New Memory</h2>
             
             <div class="input-group">
                 <label>Trip Title</label>
@@ -99,20 +98,11 @@
             </div>
             <div class="input-group">
                 <label>Trip Description</label>
-                <textarea id="trip-desc" rows="3" placeholder="Write about the entire trip here..."></textarea>
+                <textarea id="trip-desc" rows="3" placeholder="Write about the entire trip here"></textarea>
             </div>
 
-            <div id="photo-uploads-container">
-                <div class="photo-entry">
-                    <div class="input-group">
-                        <label>Select Photo</label>
-                        <input type="file" accept="image/*" class="photo-file">
-                    </div>
-                    <div class="input-group">
-                        <input type="text" class="photo-caption" placeholder="Caption for this photo">
-                    </div>
-                </div>
-            </div>
+            <div id="existing-photos-container"></div>
+            <div id="photo-uploads-container"></div>
 
             <button id="add-photo-btn" class="action-btn" onclick="addPhotoField()">+ Add Another Photo</button>
             <button id="save-memory-btn" class="action-btn" style="background: #27ae60;">Save Entire Memory</button>
@@ -120,7 +110,6 @@
         </div>
     </div>
 
-    <!-- View Scrapbook Modal -->
     <div id="view-modal" class="modal-overlay">
         <div class="modal-content" style="background: #f0f2f5;">
             <button class="close-modal" onclick="closeModal('view-modal')">X</button>
@@ -128,7 +117,14 @@
         </div>
     </div>
 
-    <!-- Main UI -->
+    <div id="postcard-modal" class="modal-overlay">
+        <div class="modal-content" style="background: transparent; box-shadow: none; padding: 0;">
+            <button class="close-modal" onclick="closeModal('postcard-modal')" style="top: -15px; right: -15px; z-index: 3000;">X</button>
+            <div class="postcard-hint">Take a screenshot to save and share your postcard</div>
+            <div id="postcard-view"></div>
+        </div>
+    </div>
+
     <div id="ui-container">
         <button id="btn-search" class="tab-btn active">Mountain Search</button>
         <button id="btn-scrapbook" class="tab-btn">Scrapbook</button>
@@ -137,22 +133,20 @@
     
     <div id="info-popover">
         <h4 id="info-title">Mountain Search</h4>
-        <p id="info-text">Explore a curated list of 50 different peaks. Tap any blue pin to discover its inspirational story and see a live photo.</p>
+        <p id="info-text">Explore a curated list of 50 accessible peaks. Tap any blue pin to discover its inspirational story and see a live photo.</p>
     </div>
 
     <div id="map"></div>
 
     <div id="motd-bar">
-        <strong>Mountain of the Day:</strong> <span id="motd-content">Loading today's peak...</span>
+        <strong>Mountain of the Day:</strong> <span id="motd-content">Loading today's peak</span>
     </div>
 
-    <!-- Scripts -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
         import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js";
-        import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+        import { getFirestore, collection, addDoc, getDocs, doc, deleteDoc, updateDoc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
         const firebaseConfig = {
             apiKey: "AIzaSyCJxZ_WeFQZVkGXfY3banGJGi4a38GnELk",
@@ -173,6 +167,8 @@
 
         let currentMarkers = L.layerGroup().addTo(map);
         let pendingLatLng = null;
+        let currentEditId = null;
+        let currentExistingPhotos = [];
 
         const btnSearch = document.getElementById('btn-search');
         const btnScrapbook = document.getElementById('btn-scrapbook');
@@ -182,20 +178,12 @@
         const infoTitle = document.getElementById('info-title');
         const infoText = document.getElementById('info-text');
 
-        // Greeting Logic
         const greetingModal = document.getElementById('greeting-modal');
-        const today = new Date();
-        const cutoffDate = new Date('2026-05-12');
-        
-        if (today < cutoffDate) {
-            greetingModal.style.display = 'flex';
-            triggerConfetti();
-        }
+        greetingModal.style.display = 'flex';
 
         window.nextSlide = (num) => {
             document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
             document.getElementById(`slide-${num}`).classList.add('active');
-            triggerConfetti();
         };
 
         document.getElementById('finish-greeting').onclick = closeGreeting;
@@ -205,18 +193,12 @@
             greetingModal.style.display = 'none';
         }
 
-        function triggerConfetti() {
-            confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 }, colors: ['#d63031', '#ff7675', '#ffffff'] });
-        }
-
-        // Info Popover Logic
         infoBtn.onclick = () => {
             infoPopover.style.display = infoPopover.style.display === 'block' ? 'none' : 'block';
         };
 
         map.on('click', () => { infoPopover.style.display = 'none'; });
 
-        // Wikipedia Image Fetcher
         async function fetchWikiImage(mountainName) {
             try {
                 const query = encodeURIComponent(mountainName);
@@ -240,7 +222,7 @@
                 setMOTD(data.mountains);
                 loadMountainSearch(data.mountains);
             } catch (e) {
-                console.log("Waiting for data.json file upload.");
+                console.log("Waiting for data.json file upload");
             }
         }
 
@@ -296,19 +278,24 @@
             const querySnapshot = await getDocs(collection(db, "scrapbook_entries"));
             querySnapshot.forEach((doc) => {
                 const data = doc.data();
+                const id = doc.id;
                 const marker = L.marker([data.lat, data.lng], {icon: scrapbookIcon}).addTo(currentMarkers);
                 
                 marker.on('click', () => {
-                    openViewModal(data);
+                    openViewModal(data, id);
                 });
             });
 
             map.on('click', function(e) {
                 pendingLatLng = e.latlng;
+                currentEditId = null;
+                currentExistingPhotos = [];
+                document.getElementById('modal-form-title').innerText = "Create New Memory";
                 document.getElementById('create-modal').style.display = 'flex';
                 document.getElementById('save-status').innerText = "";
                 document.getElementById('trip-title').value = "";
                 document.getElementById('trip-desc').value = "";
+                document.getElementById('existing-photos-container').innerHTML = "";
                 document.getElementById('photo-uploads-container').innerHTML = `
                     <div class="photo-entry">
                         <div class="input-group">
@@ -322,12 +309,12 @@
             });
         }
 
-        // Scrapbook Form Logic
         window.addPhotoField = () => {
             const container = document.getElementById('photo-uploads-container');
             const newEntry = document.createElement('div');
             newEntry.className = 'photo-entry';
             newEntry.innerHTML = `
+                <button class="remove-photo-btn" onclick="this.parentElement.remove()">X</button>
                 <div class="input-group">
                     <label>Select Photo</label>
                     <input type="file" accept="image/*" class="photo-file">
@@ -337,6 +324,28 @@
                 </div>`;
             container.appendChild(newEntry);
         };
+
+        window.removeExistingPhoto = (index) => {
+            currentExistingPhotos.splice(index, 1);
+            renderExistingPhotos();
+        };
+
+        function renderExistingPhotos() {
+            const container = document.getElementById('existing-photos-container');
+            container.innerHTML = "";
+            currentExistingPhotos.forEach((p, index) => {
+                container.innerHTML += `
+                    <div class="photo-entry">
+                        <button class="remove-photo-btn" onclick="removeExistingPhoto(${index})">Remove Picture</button>
+                        <img src="${p.url}" style="width: 100%; max-height: 150px; object-fit: cover; margin-bottom: 10px; border-radius: 4px;">
+                        <div class="input-group">
+                            <label>Saved Caption</label>
+                            <input type="text" class="photo-caption-existing" value="${p.caption || ''}" data-index="${index}">
+                        </div>
+                    </div>
+                `;
+            });
+        }
 
         window.closeModal = (id) => {
             document.getElementById(id).style.display = 'none';
@@ -348,14 +357,21 @@
             const status = document.getElementById('save-status');
             
             if (!title) { status.innerText = "Please provide a trip title."; return; }
-            if (!pendingLatLng) { status.innerText = "Map location missing."; return; }
 
-            status.innerText = "Uploading photos to secure storage...";
-            const entries = document.querySelectorAll('.photo-entry');
-            let photoData = [];
+            status.innerText = "Uploading photos and saving data...";
+            const newEntries = document.querySelectorAll('#photo-uploads-container .photo-entry');
+            let combinedPhotos = [];
+
+            const existingCaptionInputs = document.querySelectorAll('.photo-caption-existing');
+            existingCaptionInputs.forEach(input => {
+                const idx = input.getAttribute('data-index');
+                currentExistingPhotos[idx].caption = input.value;
+            });
+            
+            combinedPhotos = [...currentExistingPhotos];
 
             try {
-                for (let entry of entries) {
+                for (let entry of newEntries) {
                     const fileInput = entry.querySelector('.photo-file');
                     const caption = entry.querySelector('.photo-caption').value;
                     const file = fileInput.files[0];
@@ -364,39 +380,95 @@
                         const storageRef = ref(storage, 'scrapbook_photos/' + Date.now() + "_" + file.name);
                         const snapshot = await uploadBytes(storageRef, file);
                         const url = await getDownloadURL(snapshot.ref);
-                        photoData.push({ url: url, caption: caption });
+                        combinedPhotos.push({ url: url, caption: caption });
                     }
                 }
 
-                status.innerText = "Saving journal entry...";
-                await addDoc(collection(db, "scrapbook_entries"), {
-                    title: title,
-                    description: desc,
-                    photos: photoData,
-                    lat: pendingLatLng.lat,
-                    lng: pendingLatLng.lng,
-                    date: new Date().toISOString()
-                });
+                if (currentEditId) {
+                    await updateDoc(doc(db, "scrapbook_entries", currentEditId), {
+                        title: title,
+                        description: desc,
+                        photos: combinedPhotos
+                    });
+                } else {
+                    await addDoc(collection(db, "scrapbook_entries"), {
+                        title: title,
+                        description: desc,
+                        photos: combinedPhotos,
+                        lat: pendingLatLng.lat,
+                        lng: pendingLatLng.lng,
+                        date: new Date().toISOString()
+                    });
+                }
 
                 status.style.color = "#27ae60";
-                status.innerText = "Trip saved successfully!";
+                status.innerText = "Saved successfully";
                 setTimeout(() => {
                     closeModal('create-modal');
                     loadScrapbook();
-                }, 1500);
+                }, 1000);
 
             } catch (error) {
                 status.style.color = "#e74c3c";
-                status.innerText = "An error occurred while uploading. Try again.";
-                console.error(error);
+                status.innerText = "An error occurred while uploading";
             }
         };
 
-        function openViewModal(data) {
-            const container = document.getElementById('view-content');
-            let photosHtml = "";
+        window.openEditModal = (dataString, id) => {
+            const data = JSON.parse(decodeURIComponent(dataString));
+            currentEditId = id;
+            pendingLatLng = { lat: data.lat, lng: data.lng };
             
             if (data.photos && data.photos.length > 0) {
+                currentExistingPhotos = [...data.photos];
+            } else if (data.imageUrl) {
+                currentExistingPhotos = [{ url: data.imageUrl, caption: "" }];
+            } else {
+                currentExistingPhotos = [];
+            }
+
+            document.getElementById('modal-form-title').innerText = "Edit Memory";
+            document.getElementById('trip-title').value = data.title;
+            document.getElementById('trip-desc').value = data.description || "";
+            document.getElementById('photo-uploads-container').innerHTML = "";
+            document.getElementById('save-status').innerText = "";
+            
+            renderExistingPhotos();
+            
+            closeModal('view-modal');
+            document.getElementById('create-modal').style.display = 'flex';
+        };
+
+        window.deleteMemory = async (id) => {
+            if (confirm("Are you sure you want to permanently delete this memory")) {
+                try {
+                    await deleteDoc(doc(db, "scrapbook_entries", id));
+                    closeModal('view-modal');
+                    loadScrapbook();
+                } catch (e) {
+                    alert("Error deleting memory");
+                }
+            }
+        };
+
+        window.openPostcard = (title, desc, imgUrl) => {
+            closeModal('view-modal');
+            const container = document.getElementById('postcard-view');
+            container.innerHTML = `
+                <h1>${decodeURIComponent(title)}</h1>
+                ${imgUrl ? `<img src="${decodeURIComponent(imgUrl)}">` : ''}
+                <p>${decodeURIComponent(desc).replace(/\n/g, '<br>')}</p>
+            `;
+            document.getElementById('postcard-modal').style.display = 'flex';
+        };
+
+        function openViewModal(data, id) {
+            const container = document.getElementById('view-content');
+            let photosHtml = "";
+            let firstImgUrl = "";
+            
+            if (data.photos && data.photos.length > 0) {
+                firstImgUrl = data.photos[0].url;
                 data.photos.forEach(p => {
                     photosHtml += `
                     <div class="memory-photo-card">
@@ -404,15 +476,31 @@
                         ${p.caption ? `<div class="memory-photo-caption">${p.caption}</div>` : ''}
                     </div>`;
                 });
+            } else if (data.imageUrl) {
+                firstImgUrl = data.imageUrl;
+                photosHtml = `
+                    <div class="memory-photo-card">
+                        <img src="${data.imageUrl}">
+                    </div>`;
             }
+
+            const dataString = encodeURIComponent(JSON.stringify(data));
+            const encodedTitle = encodeURIComponent(data.title);
+            const encodedDesc = encodeURIComponent(data.description || "");
+            const encodedImg = encodeURIComponent(firstImgUrl);
 
             container.innerHTML = `
                 <div class="memory-header">
                     <h2 class="memory-title">${data.title}</h2>
-                    <p class="memory-desc">${data.description.replace(/\n/g, '<br>')}</p>
+                    <p class="memory-desc">${(data.description || "").replace(/\n/g, '<br>')}</p>
                 </div>
+                <button class="action-btn btn-postcard" onclick="openPostcard('${encodedTitle}', '${encodedDesc}', '${encodedImg}')">View as Digital Postcard</button>
                 <div class="memory-photos">
                     ${photosHtml}
+                </div>
+                <div class="action-bar">
+                    <button class="action-btn btn-edit" onclick="openEditModal('${dataString}', '${id}')">Edit Trip</button>
+                    <button class="action-btn btn-delete" onclick="deleteMemory('${id}')">Delete Trip</button>
                 </div>
             `;
             document.getElementById('view-modal').style.display = 'flex';
